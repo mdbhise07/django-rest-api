@@ -22,3 +22,12 @@ This project implements a Django-based REST API system with Docker to manage thr
 ```bash
 git clone https://github.com/yourusername/django-machine-test.git
 cd django-machine-test
+
+<h2>Running the Project with Docker</h2>
+    <p>This project is containerized using Docker. To run the project in a containerized environment, follow these steps:</p>
+    <ul>
+        <li>Ensure you have Docker and Docker Compose installed on your system.</li>
+        <li>Build the containers using the command: <code>docker-compose build</code></li>
+        <li>Start the application with: <code>docker-compose up</code></li>
+        <li>The application will run at <a href="http://localhost:8000" target="_blank">http://localhost:8000</a>.</li>
+    </ul>
